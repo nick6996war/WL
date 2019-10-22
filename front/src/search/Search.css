@@ -1,0 +1,55 @@
+.searchLine{
+    position: fixed;
+    top: 2%;
+}
+.inp {
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    width: 50%;
+    height: 10%;
+  }
+
+.btn {
+    width: 100px;
+    height: 35px;
+    
+    right: 0%;
+    font-family: "Roboto medium", sans-serif;
+    font-size: 14px;
+    min-width: 7%;
+
+    border-radius: 2px;
+    background: rgba(103, 58, 183, 1);
+    color: #fff;
+    outline: 0;
+}
+.btn:active{
+    background: rgb(58, 24, 117);;
+}
+.filmList{
+    position: static;
+    top: 30%
+}
+.btnAZ{
+    position: fixed;
+    top: 2%;
+    right: 30%;
+}
+.btnAZ:active{
+    background: rgb(58, 24, 117);;
+}
+.btnDL{
+    position: fixed;
+    top: 2%;
+    right: 15%;}
+.btnDL:active{
+    background: rgb(58, 24, 117);;
+}
+.btnADD{
+    position: fixed;
+    top: 2%;
+    left: 50%;
+}
+.btnADD:active{
+    background: rgb(58, 24, 117);;
+}

@@ -1,0 +1,15 @@
+.ProgressBar {
+  position: absolute; top: 60%; left: 1%; right: 1%;
+  height: 6px;
+  background-color: rgb(183, 155, 229);
+  border-radius: 5px;
+  
+}
+
+.Progress {
+  position: absolute; top: 60%; left: 1%;
+  background-color: rgba(103, 58, 183, 1);
+  height: 200%;
+  margin: 0;
+  border-radius: 5px;
+}
