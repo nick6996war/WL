@@ -1,16 +1,21 @@
 {
-  "name": "server",
+  "name": "wl-test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "sequelize": "^5.21.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Mykola Kyrychok",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "formidable": "^1.2.1"
-  }
+  "description": ""
 }
